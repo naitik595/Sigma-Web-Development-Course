@@ -1,0 +1,27 @@
+#main-title{
+    color: lightcoral;
+}
+p{
+    color: navy;
+}
+body{
+    background-color: lightpink;
+}
+h3{
+    color: darkcyan;
+}
+.goal-list{
+    color: coral;
+}
+table{
+    color: fuchsia;
+}
+form{
+    color: peru;
+}
+input{
+    color: darkviolet;
+}
+button{
+    color: firebrick;
+}
