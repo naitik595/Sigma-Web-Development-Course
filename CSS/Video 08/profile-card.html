@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build A Personal Profile Card By Using HTML And CSS</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #main-heading {
+            text-align: center;
+            color: rgba(255, 0, 0, 0.5);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        .section {
+            border: 5px solid black;
+            padding: 5px;
+            border-radius: 20px;
+            margin: 50px;
+            padding: 20px;
+
+        }
+
+        .sub-headings {
+            text-transform: capitalize;
+
+        }
+
+        .important-headings {
+            text-transform: capitalize;
+
+        }
+
+        .paragraphs {
+            text-transform: capitalize;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 id="main-heading">personal profile card</h1>
+    </main>
+    <section class="section">
+        <img src="1.png" alt="profile-image">
+        <hr>
+        <h3 class="sub-headings">name: naitik rajput</h3>
+        <h3 class="sub-headings">education: studying in class 11th</h3>
+        <h3 class="sub-headings">skills: HTML & CSS</h3>
+        <h3 class="sub-headings">country: india </h3>
+        <hr>
+
+        <h2 class="important-headings">about me</h2>
+        <p class="paragraphs">i am a student of class 11th & currently i am learning <i>web development</i>.</p>
+        <p class="paragraphs">i am learned <i>HTML</i> in few past days and i am currently focus on <i>CSS</i>.</p>
+        <p class="paragraphs">i am live in india , uttar pradesh , mainpuri a city of <i>uttar pradesh</i>.</p>
+        <h2 class="important-headings">contact me</h2>
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:naitik04560@gmail.com">naitik04560@gmail.com</a>
+        </p>
+        <form>
+            <div>
+                <label><strong>message:</strong></label>
+            </div>
+            <textarea rows="5" cols="40"></textarea>
+            <br>
+            <button type="submit">submit</button>
+        </form>
+        <hr>
+
+    </section>
+
+</body>
+
+</html>
