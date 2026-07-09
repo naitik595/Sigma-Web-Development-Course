@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a simple login page</title>
+    <style>
+        body{
+            background-color: #d3d3d3;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            /* margin: 50px; */
+            padding: 40px;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .login-card{
+            border: 2px solid  whitesmoke;
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            width: 400px;
+            /* transition: background-color 0.3s ease; */
+        }
+
+        .logo-text{
+                text-align: center;
+                color: #2f8d46;
+        }
+
+        .sub-heading{
+            text-align: center;
+        }
+
+        .input-group{
+            margin-bottom: 20px;
+        }
+
+        .input-group > label{
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .input-group > input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+        .login-btn{
+            padding: 10px;
+            width: 100%;
+            border: 1px solid white;
+            background-color: #4CAF50;
+            border-radius: 10px;
+            box-sizing: border-box;
+            color: white;
+            cursor: pointer;
+        }
+        .footer-text{
+            padding: 10px;
+            margin: 15px;
+            text-align: center;
+            
+        }
+        
+        /* .login-btn:hover{
+            background-color: #2f8d46;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="login-card">
+       <h1 class="logo-text">GeeksforGeeks</h1>
+       <h3 class="sub-heading">Enter your login credentials</h3>
+
+       <div class="input-group">
+         <label>Username:</label>
+         <input type="text" placeholder="Enter your Username">
+       </div>
+
+       <div class="input-group">
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your Password">
+       </div>
+
+    
+        <button class="login-btn" type="submit">Submit</button>
+        <p class="footer-text">Not registered?<a href="#">Create an account</a></p>
+    </div>
+    
+</body>
+</html>
