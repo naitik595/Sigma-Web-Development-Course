@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling List Practice</title>
+    <style>
+        .main-title{
+            text-align: center;
+            color: rgb(199, 10, 174);
+        }
+        nav ul li{
+              list-style: decimal-leading-zero;
+              list-style-type: "¥";
+              border: 2px solid black;
+              border-radius: 3px;
+              list-style-position: inside;
+              padding: 10px;
+        }
+        nav ol li{
+            list-style: hiragana;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 class="main-title">CSS Stylist Lists</h1>
+    </main>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <ol>
+            <li>VS Code</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ol>
+    </nav>
+
+</body>
+
+</html>
