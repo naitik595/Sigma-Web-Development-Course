@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 2 - Design A Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: gray;
+            padding: 45px;
+            display: flex;
+        }
+
+        .card {
+            border: 3px solid white;
+            border-radius: 15px;
+            overflow: hidden;
+            padding: 12px;
+            margin: 100px auto;
+            width: 300px;
+            background-color: white;
+        }
+
+        .image>img {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .tags-container {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .nature-tag {
+            border: 1px solid gray;
+            display: inline-block;
+            border-radius: 20px;
+            /* background-color: #e0e0e0; */
+            padding: 4px 12px;
+            margin-right: 7px;
+        }
+
+        .lake-tag {
+            border: 1px solid gray;
+            display: inline-block;
+            border-radius: 20px;
+            /* background-color: #e0e0e0; */
+            padding: 4px 12px;
+            margin-left: 2px;
+        }
+
+        .card-title {
+            color: sienna;
+        }
+
+        .card-desc {
+            color: teal;
+        }
+
+        .card-btn {
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .card-btn a {
+            display: inline-block;
+            background-color: #e0ebff;
+            color: #2563eb;
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="images.jpg" alt="lake-image">
+        </div>
+        <div class="tags-container">
+            <span class="nature-tag">Nature</span>
+            <span class="lake-tag">Lake</span>
+        </div>
+        <div class="content-box">
+            <h2 class="card-title">Lago di Braies </h2>
+            <p class="card-desc">Discover the breathtaking emerald waters of this stunning alpine lake, perfectly
+                nestled within the majestic Italian Dolomites mountain range.</p>
+        </div>
+        <div class="card-btn">
+            <a href="#read">Read More</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
