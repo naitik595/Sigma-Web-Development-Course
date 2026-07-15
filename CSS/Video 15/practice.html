@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: silver;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            background-color: crimson;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: -15px;
+            left: -15px;
+        }
+
+        .content {
+            transform: rotate(-45deg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            color: white;
+        }
+
+        .content h1 {
+            font-size: 55px;
+            /* 💡 Size ko ekdum bada kar diya taaki box mein phail jaye */
+            font-weight: 900;
+            /* Ekdum mota look */
+            line-height: 0.9;
+            /* 💡 40% ko bilkul center ke paas laane ke liye */
+            font-style: italic;
+            /* Standard simple jhukaav jo direct work karega */
+            transform: rotate(-9deg);
+        }
+
+        .content h2 {
+            font-size: 45px;
+            /* 💡 OFF ka size bhi bada kiya */
+            font-weight: 900;
+            line-height: 0.9;
+            /* 💡 OFF ko 40% ke ekdum chipka ke rakhne ke liye */
+            font-style: italic;
+            transform: rotate(-8deg);
+        }
+
+        .tag-wraper {
+            background-color: black;
+            width: 150px;
+            height: 150px;
+            position: relative;
+            transform: rotate(45deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tag-wraper">
+
+        <div class="box">
+            <div class="content">
+                <h1>40%</h1>
+                <h2>OFF</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
