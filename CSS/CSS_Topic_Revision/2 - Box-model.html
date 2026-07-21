@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: gray;
+            padding: 50px;
+            /* 💡 Kyun kiya: Taaki hamara dabba browser ke bilkul upar-left kinare se thoda alag dikhe */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .my-box {
+            background-color: crimson;
+            color: white;
+            font-weight: bold;
+            padding: 10px 30px;
+            margin: 40px;
+            /* display: grid;
+            justify-self: center; */
+
+            /* 1. CONTENT SIZE: Pehle hum dabbe ki width aur height fix karte hain */
+            width: 200px;
+            height: 100px;
+        }
+
+        .coupan-card {
+            width: 250px;
+            height: 80px;
+            background-color: white;
+            color: crimson;
+            font-weight: bold;
+            font-size: 24px;
+            border: 2px dashed crimson;
+            margin-top: 30px;
+            padding: 20px 60px;
+            margin: 37px;
+            /* display: grid;
+            justify-self: center; */
+        }
+
+        .main-wrapper {
+            width: 400px;
+            background-color: lightgray;
+            padding: 34px;
+            /* justify-content: center;
+            align-content: center;
+            display: grid;
+            justify-self: center; */
+          }
+
+        .box-left {
+            width: 100px;
+            height: 50px;
+            background-color: teal;
+            margin-bottom: 45px;
+        }
+
+        .box-right {
+            width: 100px;
+            height: 50px;
+            background-color: orange;
+        }
+        .inline-box{
+            background-color: yellow;
+            color: black;
+            padding: 30px;
+            margin: 40px;
+            display: inline-block;
+        }
+        .test-container{
+            background-color: lightyellow;
+            margin-top: 50px;
+            border: 3px solid black;
+        }
+        .bad-tag{
+            background-color: red;
+            color: white;
+            padding: 20px;
+        }
+        .good-tag{
+            background-color: green;
+            color: white;
+            padding: 20px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="my-box">BOX MODEL</div>
+    <div class="coupan-card">
+        <p class="coupan-code">SAVE 50%</p>
+    </div>
+
+    <!-- Ek bada baahar ka dabba -->
+    <div class="main-wrapper">
+        <!-- Andar do chote dabbe -->
+        <div class="box-left">Left Box</div>
+        <div class="box-right">Right Box</div>
+    </div>
+
+    <span class="inline-box">Pehla Text</span>
+    <span class="inline-box">Dusra Text</span>
+
+    <div class="test-container">
+    <div>Yeh upar ka text hai</div> <!-- 💡 Ek alag div taaki text upar rahe -->
+    
+    <span class="bad-tag">NO PADDING</span> 
+    <span class="good-tag">PERFECT PADDING</span>
+</div>
+
+
+
+</body>
+
+</html>

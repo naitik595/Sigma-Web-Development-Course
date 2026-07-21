@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* 💡 KAB AUR KYUN: Iska use hamesha CSS ke sabse pehle line par hota hai. Browser heading aur paragraphs ke aas-paas jo apna faltu gap chhodta hai, yeh unhe zero kar deta hai taaki aapka banaya hua card kabhi toote na. */
+        }
+
+        p {
+            color: gray;
+            /* 💡 KAISE AUR KYUN: Isne page ke SAARE paragraphs ko ek sath gray kar diya. */
+        }
+
+        .price-text {
+            color: crimson;
+            font-weight: bold;
+            /* 💡 KAISE AUR KYUN: Isne sirf price wale paragraph ko laal aur mota kiya, baki p tags ko nahi chheda. */
+        }
+
+        .product-box p {
+            font-size: 18px;
+            /* 💡 KAISE AUR KYUN: Yeh sirf un paragraphs par lagega jo '.product-box' ke ANDAR hain. Jo upar normal pehla paragraph hai, uspar iska koi asar nahi hoga. */
+        }
+
+        #main-submit-btn {
+            background-color: #2563eb;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            /* 💡 KAB AUR KYUN: Hash (#) lagakar likhte hain. Yeh pure page par sirf ISI button par kaam karega. Jab aapko lagta hai ki website ka 'Login Button' ya 'Main Header' ek hi hai aur doosra koi aisa nahi banega, tabhi ID use kijiye. */
+        }
+
+        .nav-link {
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Mouse le jaane par (Hover State) */
+        .nav-link:hover {
+            color: orange;
+            /* 💡 KAB AUR KYUN: Jab user is link par mouse lekar jayega, tabhi rang badal kar orange hoga. */
+        }
+
+        /* Click karte waqt (Active State) */
+        .nav-link:active {
+            color: red;
+            /* 💡 KAB AUR KYUN: Jis 1 second ke liye user button ko dabakar rakhega, tab iska rang laal ho jayega. */
+        }
+        .special-card button{
+            background-color: orange;
+        }
+        .special-card :last-child{
+            background-color: purple;
+            color: white;
+        }
+        .secondary-btn:hover{
+            background-color: #1e293b;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Ye main heading hai</h1>
+    <p>Ye pehla paragraph hai (Normal text).</p>
+
+    <!-- Ek dabba jisme do alag paragraphs hain -->
+    <div class="product-box">
+        <p class="price-text">Rs. 499</p>
+        <p>Yeh product ka description hai.</p>
+    </div>
+    <!-- ID Selector ke liye -->
+    <button id="main-submit-btn">Click Me</button>
+
+    <!-- Pseudo-classes ke liye ek link -->
+    <a href="#test-link" class="nav-link">Hover Over Me</a>
+
+    <div class="special-card">
+        <button>Add To Cart</button>
+        <button class="secondary-btn">Wishlist</button>
+    </div>
+
+</body>
+
+</html>

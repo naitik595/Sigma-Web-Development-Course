@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing Units Masterclass - Fresh Start</title>
+    <style>
+        /* Reset Selector: Taaki browser ki apni koi extra jagah na bache */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f172a;
+            /* Premium Dark Background */
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #f59e0b;
+            /* Amber Color for headings */
+            font-size: 20px;
+        }
+
+        /* -----------------------------------------
+           BOX 1 & BOX 2: THE PERCENTAGE (%) TRIALS
+        ----------------------------------------- */
+        .parent-container {
+            background-color: #1e293b;
+            width: 500px;
+            /* 💡 Parent ki chaudai fix hai */
+            padding: 20px;
+            border: 2px dashed #64748b;
+            margin-top: 10px;
+        }
+
+        .box-percent {
+            background-color: #3b82f6;
+            /* Blue Box */
+            width: 50%;
+            /* 🔥 Sabki chaudai ka 50% */
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+        }
+
+        /* -----------------------------------------
+           BOX 3 & BOX 4: THE VIEWPORT (vw/vh) TRIALS
+        ----------------------------------------- */
+        .box-vw {
+            background-color: #10b981;
+            /* Green Box */
+            width: 50vw;
+            /* 🔥 Screen ki total width ka 50% */
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        .box-vh {
+            background-color: #ec4899;
+            /* Pink Box */
+            width: 200px;
+            height: 20vh;
+            /* 🔥 Screen ki total height ka 20% */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        /* -----------------------------------------
+           BOX 5: REAL COMBINATION (PERCENT + MAX-WIDTH)
+        ----------------------------------------- */
+        .box-responsive {
+            background-color: #f43f5e;
+            /* Rose Box */
+            width: 90%;
+            max-width: 400px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        .product-card {
+            background-color: #1e293b;
+            width: 90%;
+            max-width: 350px;
+            /* 💡 Laptop par card ka size fix kar diya */
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 15px;
+            border: 1px solid #334155;
+        }
+
+        .product-card h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .product-card p {
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        /* 🔥 BTN SIZING UNIT KA ASLI KHEL YAHAN HAI */
+        .buy-btn {
+            background-color: #f59e0b;
+            /* Amber button */
+            color: black;
+            border: none;
+            padding: 12px 0;
+            /* 💡 Fixed px: Upar-neeche ka gap fix rakha */
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+
+            /* 👇 AB ISME SE KOI EK CHOOSE KARNA HOTI HAI */
+            width: 100%;
+            /* ⚡ OPTION A: Poore card ke barabar chaudi button */
+        }
+
+        /* 💡 Browser ka default root (html) font-size hamesha 16px hota hai */
+
+        .typo-parent {
+            background-color: #1e293b;
+            margin-top: 15px;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+
+            /* 🔥 PARENT KA FONT SIZE HUMNE FIX KAR DIYA */
+            font-size: 20px;
+        }
+
+        .my-rem-text {
+            color: #3b82f6;
+            /* Blue Text */
+
+            /* 🔥 REM KA JADOO */
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .my-em-text {
+            color: #ef4444;
+            /* Red Text */
+
+            /* 🔥 EM KA JADOO */
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Sizing Units Live Playground</h1>
+
+    <h2>Case 1: Percentage (%) Box (Box 1 Inside Parent)</h2>
+    <div class="parent-container">
+        <div class="box-percent">Box 1: I am 50% Width</div>
+    </div>
+
+    <h2>Case 2: Viewport Width (vw) Box (Box 2 Khule mein)</h2>
+    <div class="box-vw">Box 2: I am 50vw Width</div>
+
+    <h2>Case 3: Viewport Height (vh) Box (Box 3)</h2>
+    <div class="box-vh">Box 3: 20vh Height</div>
+
+    <h2>Case 4: The Smart Formula Box (Box 4)</h2>
+    <div class="box-responsive">Box 4: 90% Width + max-width 400px</div>
+
+    <h2>Case 5: Real Product Box with Button</h2>
+    <div class="product-card">
+        <h3>Premium Sports Shoes</h3>
+        <p>Price: ₹2,999</p>
+        <!-- 🔥 Yeh rahi hamari button -->
+        <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <h2>Case 6: REM vs EM Typography Trial</h2>
+    <!-- 💡 Yeh ek bada dabba hai jo baap (parent) ka kaam karega -->
+    <div class="typo-parent">
+
+        <div class="my-rem-text">Box 6 (REM): I look at the HTML Root!</div>
+        <div class="my-em-text">Box 7 (EM): I look at my Parent Box!</div>
+
+    </div>
+
+</body>
+
+</html>

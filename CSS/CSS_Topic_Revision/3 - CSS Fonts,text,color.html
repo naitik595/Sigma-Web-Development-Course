@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Fonts,Text & Color Property Practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #edf2f7;
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .card{
+            background-color: white;
+            width: 90%;
+            max-width: 350px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .card-heading{
+            color: #1a202c;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 800;
+        }
+        .card-desc{
+            color: rgba(26, 32, 44, 0.7);
+            margin-top: 10px;
+            text-align: justify;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .luxury-badge{
+            background-color: #1e293b;
+            margin-top: 40px;
+            width: 90%;
+            max-width: 350px;
+            padding: 35px;
+            margin: 0;
+            margin: 20px;
+            border-radius: 12px;
+        }
+        .badge-title{
+            color: #f59e0b;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .badge-text{
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 13px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 class="card-heading">Premium Quality Shoes</h1>
+        <p class="card-desc">Experience the best comfort and premium leather style in your daily runs.</p>
+    </div>
+
+    <div class="luxury-badge">
+        <h2 class="badge-title">Limited Edition</h2>
+        <p class="badge-text">Only 50 pieces crafted worldwide for elite collectors.</p>
+    </div>
+    
+</body>
+</html>
