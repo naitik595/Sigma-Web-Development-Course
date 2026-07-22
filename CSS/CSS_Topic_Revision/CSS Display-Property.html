@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property Masterclass</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f172a; /* Dark background */
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            padding: 40px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #f59e0b;
+            font-size: 20px;
+        }
+
+        /* 1. BLOCK ELEMENT STYLE */
+        .block-box {
+            background-color: #ef4444; /* Red */
+            padding: 15px;
+            margin-bottom: 10px;
+            
+            /* 💡 Test Sizing units */
+            width: 200px;
+            height: 60px;
+            /* display: none; */
+        }
+
+        /* 2. INLINE ELEMENT STYLE */
+        .inline-box {
+            background-color: #3b82f6; /* Blue */
+            padding: 15px;
+            /* display: block; */
+            
+            /* 🔥 CHENGE THI UNITS AND OBSERVE */
+            width: 200px;  /* Browser isko ignore karega */
+            height: 60px; /* Browser isko ignore karega */
+        }
+
+        /* 3. INLINE-BLOCK ELEMENT STYLE */
+        .inline-block-box {
+            background-color: #10b981; /* Green */
+            padding: 15px;
+            margin: 5px;
+            
+            /* 🔥 JADOO: Dono duniya ka mix roop */
+            display: inline-block;
+            width: 150px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Display Property Playground</h1>
+
+    <h2>1. Display: Block (Jaise div, h1, p)</h2>
+    <div class="block-box">Block 1</div>
+    <div class="block-box">Block 2</div>
+
+    <h2>2. Display: Inline (Jaise span, a, strong)</h2>
+    <span class="inline-box">Inline 1</span>
+    <span class="inline-box">Inline 2</span>
+
+    <h2>3. Display: Inline-Block (The Best Hybrid)</h2>
+    <div class="inline-block-box">Hybrid 1</div>
+    <div class="inline-block-box">Hybrid 2</div>
+
+</body>
+</html>
