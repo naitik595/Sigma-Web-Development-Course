@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Lists Masterclass</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0f172a; /* Premium Dark Background */
+            font-family: 'Segoe UI', sans-serif;
+            color: white;
+            padding: 40px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #f59e0b;
+            font-size: 20px;
+        }
+
+        /* -----------------------------------------
+           1. BORING BULLET LIST (Normal Behavior)
+        ----------------------------------------- */
+        .normal-list {
+            background-color: #1e293b;
+            padding: 20px 20px 20px 40px; /* 💡 Note: Bullets ke liye left-padding zaroori hoti hai */
+            border-radius: 8px;
+            margin-top: 15px;
+            width: 300px;
+            
+            /* 🔥 Bullets ka huliya badalna */
+            list-style-type: square; /* disc, circle, square */
+            /* list-style: none; */
+        }
+
+        /* -----------------------------------------
+           2. PROFESSIONAL NAVBAR LINKS (Real Website Secret)
+        ----------------------------------------- */
+        .navbar-menu {
+            /* 🔥 STEP 1: Jo aapne bola tha—saare gande dots ko ek jhatke mein saaf kiya */
+            list-style: none; 
+            
+            background-color: #1e293b;
+            padding: 15px 30px;
+            border-radius: 8px;
+            margin-top: 15px;
+            max-width: 600px;
+        }
+
+        .navbar-menu li {
+            /* 🔥 STEP 2: Jo humne Display property mein seekha tha—saare links ko aamne-saamne laya */
+            display: inline-block;
+            margin-right: 30px; /* 💡 Links ke beech ka premium gap */
+        }
+
+        .navbar-menu li a {
+            color: white;
+            text-decoration: none; /* 💡 Links ke neeche ki gandi line hatane ke liye */
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        /* Hover Effect: Mouse le jaane par rang badlega */
+        .navbar-menu li a:hover {
+            color: #3b82f6; 
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSS Lists Playground</h1>
+
+    <h2>Case 1: Styled Bullets (Boring Way)</h2>
+    <ul class="normal-list">
+        <li>Dashboard</li>
+        <li>Premium Shoes</li>
+        <li>Settings</li>
+    </ul>
+
+    <h2>Case 2: Real Website Navbar (The Professional Way)</h2>
+    <ul class="navbar-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Netflix Clone</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</body>
+</html>
