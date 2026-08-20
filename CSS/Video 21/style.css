@@ -40,6 +40,7 @@ header {
     margin-left: 10px;
     margin-right: 10px;
     background-color: #27ae60;
+    text-align: center;
 }
 
 .box1 {
@@ -49,6 +50,7 @@ header {
     margin: 30px;
     display: inline-block;
     background-color: #ff8a8a;
+
 }
 
 .box2 {
@@ -58,6 +60,7 @@ header {
     margin-bottom: 29px;
     display: inline-block;
     background-color: #3498db;
+   
 }
 
 .welcome-box {
