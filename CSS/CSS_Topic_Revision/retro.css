@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'courier prime', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    width: 360px;
+    border: 1px solid #a3a3a3;
+    padding: 34px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 0px #000000;
+}
+.card-title{
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+.input-group{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.input-label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.input-field{
+    padding: 12px 10px;
+    border: 2px solid black;
+}
+.input-field[type="password"]::placeholder{
+    letter-spacing: 5px;
+}
+.login-btn{
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px 10px;
+    border: 2px solid black;
+    color: #ffffff;
+    background-color: #fd5d5e;
+    font-weight: bold;
+    cursor: pointer;
+}
+.divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 100%;
+}
+.line{
+    height: 2px;
+    background-color: #000000;
+    flex: 1;
+}
+.text{
+    padding: 0 10px;
+    font-weight: bold;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.media-text{
+    border: 2px solid black;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+.footer-text a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+}
