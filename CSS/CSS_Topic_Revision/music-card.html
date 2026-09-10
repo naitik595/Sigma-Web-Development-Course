@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a spotify music-card</title>
+    <link rel="stylesheet" href="music-card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="artwork-440x440.jpg" class="music-banner" alt="starboy-image">
+        <div class="text-content">
+            <p class="text-para">iPhone</p>
+            <div class="title-row">
+                <h3 class="text-starboy">Starboy</h3>
+                <span class="explicit-badge">E</span>
+                <span class="airplay-icon"><img src="AirPlay_Audio_logo.svg" class="airplay-icon"
+                        alt="airplay-svg"></span>
+            </div>
+            <h3 class="sub-heading">The Weeknd — Starboy</h3>
+        </div>
+        <div class="progress-container">
+            <input type="range" class="progress-bar" min="0" max="100" value="30">
+        </div>
+        <div class="time-row">
+            <p class="time-lenth">0:03</p>
+            <p class="time-lenth">-3:48</p>
+        </div>
+        <div class="controls-container">
+            <div class="rewind-control">
+                <div class="rewind-control">
+                    <svg width="35" height="35" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 12L26 3V21L13 12Z" fill="#373737" stroke="#373737" stroke-width="2"
+                            stroke-linejoin="round" />
+                        <path d="M1 12L14 3V21L1 12Z" fill="#373737" stroke="#373737" stroke-width="2"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="pause-control">
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="6" y="4" width="5" height="18" rx="1" fill="white" />
+                    <rect x="14" y="4" width="5" height="18" rx="1" fill="white" />
+                </svg>
+            </div>
+            <div class="fast-forward-control">
+                <div class="fast-forward-control">
+                    <svg width="35" height="35" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 12L2 3V21L15 12Z" fill="#373737" stroke="#373737" stroke-width="2"
+                            stroke-linejoin="round" />
+                        <path d="M27 12L14 3V21L27 12Z" fill="#373737" stroke="#373737" stroke-width="2"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="volume-container">
+            <div class="volume-icon-low">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" width="30" height="30" fill="none"
+                    stroke="#525252" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14 14.8135V9.18646C14 6.04126 14 4.46866 13.0747 4.0773C12.1494 3.68593 11.0603 4.79793 8.88232 7.02192C7.75439 8.17365 7.11085 8.42869 5.50604 8.42869C4.10257 8.42869 3.40084 8.42869 2.89675 8.77262C1.85035 9.48655 2.00852 10.882 2.00852 12C2.00852 13.118 1.85035 14.5134 2.89675 15.2274C3.40084 15.5713 4.10257 15.5713 5.50604 15.5713C7.11085 15.5713 7.75439 15.8264 8.88232 16.9781C11.0603 19.2021 12.1494 20.3141 13.0747 19.9227C14 19.5313 14 17.9587 14 14.8135Z"
+                        fill="#525252" stroke="none"></path>
+                    <path d="M16.5 10.2C16.85 10.8 17 11.4 17 12C17 12.6 16.85 13.2 16.5 13.8"></path>
+                </svg>
+            </div>
+                <input type="range" class="volume-bar" min="0" max="100" value="30"
+                    oninput="this.style.background = `linear-gradient(to right, #ffffff ${this.value}%, #50504e ${this.value}%)`">
+            <div class="volume-icone-high">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 24" width="30" height="30" fill="none"
+                    stroke="#525252" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M14 14.8135V9.18646C14 6.04126 14 4.46866 13.0747 4.0773C12.1494 3.68593 11.0603 4.79793 8.88232 7.02192C7.75439 8.17365 7.11085 8.42869 5.50604 8.42869C4.10257 8.42869 3.40084 8.42869 2.89675 8.77262C1.85035 9.48655 2.00852 10.882 2.00852 12C2.00852 13.118 1.85035 14.5134 2.89675 15.2274C3.40084 15.5713 4.10257 15.5713 5.50604 15.5713C7.11085 15.5713 7.75439 15.8264 8.88232 16.9781C11.0603 19.2021 12.1494 20.3141 13.0747 19.9227C14 19.5313 14 17.9587 14 14.8135Z"
+                        fill="#525252" stroke="none"></path>
+                    <path d="M16.5 10.2C16.85 10.8 17 11.4 17 12C17 12.6 16.85 13.2 16.5 13.8"></path>
+                    <path d="M19 8.5C19.85 9.6 20.5 10.8 20.5 12C20.5 13.2 19.85 14.4 19 15.5"></path>
+                    <path d="M21.5 6.5C22.7 8.1 23.5 10 23.5 12C23.5 14 22.7 15.9 21.5 17.5"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
