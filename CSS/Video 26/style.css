@@ -266,3 +266,54 @@ nav {
     color: #000000;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+    .mid-heading{
+        font-size: 2rem;
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+    .mid-para{
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    .os-grid-container{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    .os-download-btn{
+        width: 60%;
+        font-size: 1rem;
+    }
+    .promo-banner{
+        width: 90% !important;
+        padding: 30px 15px;
+    }
+    .promo-text{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .promo-btn{
+        width: 80%;
+        font-size: 1rem;
+    }
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        gap: 15px;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-buttons{
+        margin-right: 0;
+    }
+    .sha-value{
+        font-size: 7px;
+        text-align: center;
+    }
+    .promo-title{
+        text-align: center;
+    }
+}
