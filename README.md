@@ -1,7 +1,7 @@
 ![Sigma Web Development Course](https://img.shields.io/badge/Sigma-Web%20Development%20Course-blue?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
 ![HTML](https://img.shields.io/badge/HTML5-Complete-success?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS3-Complete-blueviolet?style=for-the-badge&logo=css3)
+![CSS](https://img.shields.io/badge/CSS3-In%20Progress-blueviolet?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Coming%20Soon-yellow?style=for-the-badge&logo=javascript)
 
 ---
@@ -10,7 +10,7 @@
 
 > **Master Modern Web Development** - A comprehensive learning journey from fundamentals to advanced concepts
 
-A well-organized, structured repository documenting my complete learning experience with the **[Sigma Web Development Course by CodeWithHarry](https://www.youtube.com/playlist?list=PLu0W_9lJV70gvT7PU5Z8JFmrWLfvhRQH5)**.
+A well-organized, structured repository documenting my complete learning experience with the **[Sigma Web Development Course by CodeWithHarry](https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w)**.
 
 ---
 
@@ -31,7 +31,7 @@ A well-organized, structured repository documenting my complete learning experie
 This repository contains **50+ hours of practical web development learning**, organized into logical, topic-wise folders with:
 
 - 🏗️ **HTML Fundamentals** - 12 comprehensive topics
-- 🎨 **CSS Mastery** - 22+ advanced topics with real-world examples
+- 🎨 **CSS Mastery** - 22+ topics with real-world examples (in progress)
 - ⚙️ **JavaScript Basics** - Coming soon
 - 💼 **Real-World Projects** - Portfolio, Netflix Clone, E-commerce
 
@@ -117,7 +117,7 @@ Sigma-Web-Development-Course/
 │   ├── 21-CSS-Flexbox
 │   │   └── Flexbox layout model, alignment, spacing
 │   ├── 22-CSS-Grid
-│   │   └── CSS Grid layout, templates, areas
+│   │   └── CSS Grid layout, templates, responsive grids
 │   ├── 23-Exercise-5-of-CSS
 │   │   └── Practical: Build Flexbox & Grid layouts
 │   ├── 24-CSS-Transform-Property
@@ -129,7 +129,7 @@ Sigma-Web-Development-Course/
 │   ├── 27-CSS-Animations
 │   │   └── Keyframe animations, animation properties
 │   ├── 29-CSS-Object-Fit-and-Object-Cover
-│   │   └── Image sizing and positioning
+│   │   └── Image sizing and positioning (current topic)
 │   └── 📁 CSS_Topic_Revision/
 │       └── Reference materials and cheatsheets
 │
@@ -150,7 +150,7 @@ Sigma-Web-Development-Course/
     Phase 1: FOUNDATION          Phase 2: STYLING
     ┌──────────────────┐        ┌──────────────────┐
     │  📚 HTML Basics  │   ───> │  🎨 CSS Mastery  │
-    │  ✅ COMPLETE     │        │  ✅ COMPLETE     │
+    │  ✅ COMPLETE     │        │  ⏳ IN PROGRESS  │
     │  • Structure     │        │  • Layouts       │
     │  • Forms         │        │  • Flexbox       │
     │  • Media         │        │  • Grid          │
@@ -182,8 +182,8 @@ Sigma-Web-Development-Course/
 | Category | Status | Topics | Exercises | Progress |
 |:---------|:------:|:------:|:---------:|:---------:|
 | **HTML** | ✅ Complete | 12/12 | 1/1 | █████████░ 100% |
-| **CSS** | ✅ Complete | 22/22 | 6/6 | █████████░ 100% |
-| **JavaScript** | ⏳ In Progress | 0/? | 0/? | ░░░░░░░░░░ 0% |
+| **CSS** | ⏳ In Progress | ~20/22 | 5/6 | ████████░░ 85% |
+| **JavaScript** | 📋 Not Started | 0/? | 0/? | ░░░░░░░░░░ 0% |
 | **Projects** | 📋 Planned | - | - | ░░░░░░░░░░ 0% |
 
 ---
@@ -203,12 +203,12 @@ Sigma-Web-Development-Course/
 - ✅ Box model and spacing techniques
 - ✅ Typography and color management
 - ✅ **Flexbox** - Modern flexible layouts
-- ✅ **CSS Grid** - Powerful grid systems
+- ✅ **CSS Grid** - Powerful grid systems, responsive grids
 - ✅ Responsive design with media queries
 - ✅ Transforms and 3D effects
 - ✅ Transitions and keyframe animations
 - ✅ CSS Variables for theming
-- ✅ Performance optimization
+- ⏳ Object-fit / image handling (current topic)
 
 ### JavaScript (Coming Next)
 - ⏳ DOM manipulation
@@ -294,9 +294,9 @@ Topic-Folder/
 | **Instructor** | [CodeWithHarry](https://codewithharry.com/) |
 | **Platform** | YouTube |
 | **Duration** | 50+ hours |
-| **Videos** | 50+ comprehensive tutorials |
+| **Videos** | 139 comprehensive tutorials |
 | **Difficulty** | Beginner to Intermediate |
-| **Playlist Link** | [Sigma Course Playlist](https://www.youtube.com/playlist?list=PLu0W_9lJV70gvT7PU5Z8JFmrWLfvhRQH5) |
+| **Playlist Link** | [Sigma Course Playlist](https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w) |
 
 ---
 
@@ -331,7 +331,7 @@ Topic-Folder/
 | 📑 **Well-Organized** | Topic-wise folders with clear structure |
 | 📝 **Clean Code** | Readable, well-commented examples |
 | 🎯 **Progressive** | Each topic builds on previous concepts |
-| 🏋️ **Exercise-Focused** | 7 practical exercises included |
+| 🏋️ **Exercise-Focused** | Practical exercises included per topic |
 | 📱 **Responsive** | Media queries and mobile-first approach |
 | 🎨 **Modern CSS** | Latest techniques: Grid, Flexbox, Variables |
 | ⚡ **Performance** | Optimization techniques included |
@@ -344,7 +344,7 @@ Topic-Folder/
 ```
 Repository Overview:
 ├── Total Topics: 34+
-├── Practice Exercises: 7
+├── Practice Exercises: 6+ (CSS)
 ├── Code Examples: 50+
 ├── Total Files: 200+
 ├── Repository Size: ~92 MB
@@ -374,25 +374,23 @@ Repository Overview:
 
 ### Immediate (Next 2 weeks):
 - [x] HTML Fundamentals - Complete
-- [x] CSS Advanced - Complete
-- [ ] JavaScript Basics - Starting
+- [ ] CSS Advanced - Finishing up (Object-fit, more practice)
+- [ ] JavaScript Basics - Starting soon
 
 ### Short Term (1-2 months):
-- [ ] JavaScript Master
+- [ ] JavaScript Mastery
 - [ ] DOM Manipulation
-- [ ] Interactive Projects
+- [ ] Interactive Projects (Netflix Clone, Spotify Clone)
 
 ### Medium Term (3-6 months):
-- [ ] Real-world Projects
-- [ ] Netflix Clone
-- [ ] E-commerce Website
-- [ ] Portfolio Website
+- [ ] Tailwind CSS
+- [ ] React.js
+- [ ] Real-world Projects (E-commerce, Portfolio)
 
 ### Long Term (6-12 months):
-- [ ] React Framework
-- [ ] Node.js Backend
-- [ ] Database Integration
-- [ ] Full-Stack Applications
+- [ ] Node.js & Express.js Backend
+- [ ] MongoDB Database Integration
+- [ ] Next.js Full-Stack Applications
 - [ ] Deployment & DevOps
 
 ---
@@ -406,7 +404,7 @@ Repository Overview:
 > No. Exercises contain only problem statements. This encourages learning by doing and problem-solving.
 
 **Q: When will JavaScript be added?**
-> After thoroughly mastering HTML and CSS fundamentals.
+> After thoroughly mastering CSS fundamentals, currently wrapping up.
 
 **Q: Can I contribute to this repo?**
 > This is a personal learning repository, but suggestions via GitHub issues are welcome!
@@ -423,7 +421,7 @@ Repository Overview:
 
 ![GitHub](https://img.shields.io/badge/GitHub-Sigma%20Course-blue?logo=github)
 ![HTML5](https://img.shields.io/badge/HTML5-Complete-success)
-![CSS3](https://img.shields.io/badge/CSS3-Complete-blueviolet)
+![CSS3](https://img.shields.io/badge/CSS3-In%20Progress-blueviolet)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Coming%20Soon-yellow)
 ![License](https://img.shields.io/badge/License-Personal%20Learning-green)
 ![Age](https://img.shields.io/badge/Learner%20Age-16-orange)
@@ -468,8 +466,8 @@ Special thanks to:
 
 ```
 Phase 1: HTML       ████████████████████ 100% ✅
-Phase 2: CSS        ████████████████████ 100% ✅
-Phase 3: JavaScript ░░░░░░░░░░░░░░░░░░░░   0% ⏳
+Phase 2: CSS        █████████████████░░░  85% ⏳
+Phase 3: JavaScript ░░░░░░░░░░░░░░░░░░░░   0% 📋
 Phase 4: Projects   ░░░░░░░░░░░░░░░░░░░░   0% 📋
 ```
 
