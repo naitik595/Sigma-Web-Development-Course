@@ -182,7 +182,6 @@ body {
 
 .offer-price {
     color: #fff;
-    transform: translateY(15px);
     margin-left: 20px;
     font-family: 'Fraunces', serif;
     font-style: italic;
@@ -197,7 +196,8 @@ body {
     align-items: center;
     border: 1px solid #856a37;
     padding: 4px 14px;
-    margin-top: 28px;
+    margin-bottom: 28px;
+    transform: translateY(17px);
     margin-right: 16px;
 }
 
