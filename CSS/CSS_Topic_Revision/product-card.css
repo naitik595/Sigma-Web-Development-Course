@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'DM sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.product-card {
+    width: 400px;
+    background-color: #141210;
+    position: relative;
+    border: 1px solid rgba(212, 168, 83, 0.18);
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.7);
+    padding-bottom: 20px;
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #d4a853 40%, #d4a853 60%, transparent);
+    z-index: 1;
+}
+
+.product-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(212, 168, 83, 0.3) 50%, transparent);
+    z-index: 1;
+}
+
+.image-container {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease-out;
+}
+
+.image-container .badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #d4a853;
+    padding: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.heart-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #494641;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.overlap-text .first-para {
+    transform: translateY(-70px);
+    margin-left: 20px;
+    word-spacing: 2px;
+    font-size: 13px;
+    color: #ae8a4e;
+}
+
+.overlap-text .second-para {
+    transform: translateY(-67px);
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Fraunces';
+    font-weight: 300;
+}
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-description .product-name {
+    color: #4b4741;
+    font-size: 12px;
+    word-spacing: 2px;
+    transform: translateY(-30px);
+    margin-left: 16px;
+}
+
+.product-rating {
+    display: inline-flex;
+    gap: 2px;
+    align-items: center;
+    transform: translateY(-29px);
+}
+
+.rating-numbers {
+    margin-left: 3px;
+    color: #4b4741;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.about-product>p {
+    color: #535657;
+    font-size: 15px;
+    margin-left: 18px;
+    transform: translateY(-15px);
+}
+
+.perfume-fragrance-names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    color: #856a37;
+    font-size: 12px;
+}
+
+.perfume-fragrance-names span {
+    border: 1px solid #856a37;
+    padding: 4px 12px;
+    text-align: center;
+}
+
+.border-bottem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-line {
+    border: 1px solid rgba(212, 168, 83, 0.1);
+    margin-top: 15px;
+    width: 90%;
+    transform: translateX(20px);
+}
+
+.price-section .real-price {
+    color: #746a65;
+    font-size: 15px;
+    transform: translateY(18px);
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+.offer-price-and-other {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-price {
+    color: #fff;
+    transform: translateY(15px);
+    margin-left: 20px;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.qty-selector {
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid #856a37;
+    padding: 4px 14px;
+    margin-top: 28px;
+    margin-right: 16px;
+}
+
+.qty-minus {
+    color: #856a37;
+    cursor: pointer;
+}
+
+.qty-number {
+    color: #fff;
+}
+
+.qty-plus {
+    color: #856a37;
+    cursor: pointer;
+}
+
+.product-btn button {
+    padding: 15px;
+    width: 90%;
+    background-color: #d4a853;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.product-card:hover .image-container img{
+    transform: scale(1.05);
+}
+.heart-icon:hover{
+    transform: scale(1.10);
+}
