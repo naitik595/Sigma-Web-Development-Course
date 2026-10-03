@@ -33,7 +33,7 @@ This repository documents structured, hands-on web development learning:
 - 🎨 **CSS3** — Selectors, layouts, Flexbox, Grid, animations, responsive design *(Complete)*
 - ⚙️ **JavaScript** — Logic, DOM, async programming *(Next)*
 - 🎨 **Tailwind CSS**, ⚛️ **React.js**, 🛠️ **Node.js / Express.js / MongoDB**, 🚀 **Next.js** *(Planned)*
-- 💼 **Real Projects** — Netflix Clone, Portfolio, and more (tracked in separate repositories)
+- 💼 **Real Projects** — [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone), Portfolio, and more (tracked in separate repositories)
 
 ---
 
@@ -113,7 +113,7 @@ Real-world projects are built and tracked in their own repositories (linked as t
 
 | Project | Tech Stack | Status |
 |---|---|---|
-| Netflix Landing Page Clone | HTML, CSS | 🔧 In Progress |
+| [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone) ([Live Demo](https://naitik595.github.io/Netflix-Landing-Page-Clone/)) | HTML, CSS | ✅ Complete |
 | Personal Portfolio Website | HTML, CSS | 📋 Planned |
 | Spotify Clone | HTML, CSS, JavaScript | 📋 Planned |
 | More projects | React, Next.js, MongoDB | 📋 Planned |
@@ -184,7 +184,7 @@ Real-world projects are built and tracked in their own repositories (linked as t
 
 - [x] HTML Fundamentals
 - [x] CSS Mastery
-- [ ] Build Netflix Landing Page Clone (in progress)
+- [x] Build Netflix Landing Page Clone
 - [ ] Build Personal Portfolio Website
 - [ ] JavaScript
 - [ ] Tailwind CSS
@@ -208,7 +208,7 @@ Thanks to **CodeWithHarry** for the Sigma Web Development Course, and to the bro
 Phase 1: HTML         ████████████████████ 100% ✅
 Phase 2: CSS          ████████████████████ 100% ✅
 Phase 3: JavaScript   ░░░░░░░░░░░░░░░░░░░░   0% 📋
-Phase 4: Projects     ░░░░░░░░░░░░░░░░░░░░   0% 📋
+Phase 4: Projects     █████░░░░░░░░░░░░░░░   25% ✅
 ```
 
 **Made with ❤️ while learning Web Development**
@@ -217,6 +217,6 @@ Phase 4: Projects     ░░░░░░░░░░░░░░░░░░░�
 
 **Follow my journey:** [@naitik595](https://github.com/naitik595)
 
-*Last Updated: September 2026*
+*Last Updated: October 2026*
 
 </div>
