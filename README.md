@@ -113,9 +113,8 @@ Real-world projects are built and tracked in their own repositories (linked as t
 
 | Project | Tech Stack | Status |
 |---|---|---|
-| [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone) 
-HTML, CSS | ✅ Complete |
-| Personal Portfolio Website | HTML, CSS | 📋 Planned |
+| [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone) |HTML, CSS | ✅ Complete |
+| [Personal Portfolio Website](https://github.com/naitik595/personal-portfolio-landing-page) |HTML, CSS | ✅ Complete |
 | Spotify Clone | HTML, CSS, JavaScript | 📋 Planned |
 | More projects | React, Next.js, MongoDB | 📋 Planned |
 
