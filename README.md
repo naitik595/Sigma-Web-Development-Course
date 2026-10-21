@@ -185,7 +185,7 @@ Real-world projects are built and tracked in their own repositories (linked as t
 - [x] HTML Fundamentals
 - [x] CSS Mastery
 - [x] Build Netflix Landing Page Clone
-- [ ] Build Personal Portfolio Website
+- [x] Build Personal Portfolio Website
 - [ ] JavaScript
 - [ ] Tailwind CSS
 - [ ] React.js
