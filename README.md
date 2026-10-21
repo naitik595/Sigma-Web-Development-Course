@@ -33,7 +33,7 @@ This repository documents structured, hands-on web development learning:
 - 🎨 **CSS3** — Selectors, layouts, Flexbox, Grid, animations, responsive design *(Complete)*
 - ⚙️ **JavaScript** — Logic, DOM, async programming *(Next)*
 - 🎨 **Tailwind CSS**, ⚛️ **React.js**, 🛠️ **Node.js / Express.js / MongoDB**, 🚀 **Next.js** *(Planned)*
-- 💼 **Real Projects** — [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone), Portfolio, and more (tracked in separate repositories)
+- 💼 **Real Projects** — [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone), [Portfolio Landing Page](https://github.com/naitik595/Personal-Portfolio-Landing-Page), and more (tracked in separate repositories)
 
 ---
 
