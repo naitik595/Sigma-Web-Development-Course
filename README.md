@@ -43,7 +43,7 @@ This repository documents structured, hands-on web development learning:
 |---|:---:|:---:|
 | HTML | ✅ Complete | 100% |
 | CSS | ✅ Complete | 100% |
-| JavaScript | 🔄 In Progress | 0% |
+| JavaScript | 🔄 In Progress | 3% |
 | Tailwind CSS | 📋 Planned | 0% |
 | React.js | 📋 Planned | 0% |
 | Node.js / Express.js | 📋 Planned | 0% |
