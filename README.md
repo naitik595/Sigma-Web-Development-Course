@@ -2,7 +2,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
 ![HTML](https://img.shields.io/badge/HTML5-Complete-success?style=for-the-badge&logo=html5)
 ![CSS](https://img.shields.io/badge/CSS3-Complete-success?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-Coming%20Soon-yellow?style=for-the-badge&logo=javascript)
+![JavaScript](https://img.shields.io/badge/JavaScript-In%20Progress-orange?style=for-the-badge&logo=javascript)
 
 ---
 
@@ -31,7 +31,7 @@ This repository documents structured, hands-on web development learning:
 
 - 🏗️ **HTML5** — Semantic markup, forms, media, SEO basics *(Complete)*
 - 🎨 **CSS3** — Selectors, layouts, Flexbox, Grid, animations, responsive design *(Complete)*
-- ⚙️ **JavaScript** — Logic, DOM, async programming *(Next)*
+- ⚙️ **JavaScript** — Logic, DOM, async programming *(In Progress)*
 - 🎨 **Tailwind CSS**, ⚛️ **React.js**, 🛠️ **Node.js / Express.js / MongoDB**, 🚀 **Next.js** *(Planned)*
 - 💼 **Real Projects** — [Netflix Landing Page Clone](https://github.com/naitik595/Netflix-Landing-Page-Clone), [Portfolio Landing Page](https://github.com/naitik595/Personal-Portfolio-Landing-Page), and more (tracked in separate repositories)
 
@@ -43,7 +43,7 @@ This repository documents structured, hands-on web development learning:
 |---|:---:|:---:|
 | HTML | ✅ Complete | 100% |
 | CSS | ✅ Complete | 100% |
-| JavaScript | 📋 Not Started | 0% |
+| JavaScript | 🔄 In Progress | 0% |
 | Tailwind CSS | 📋 Planned | 0% |
 | React.js | 📋 Planned | 0% |
 | Node.js / Express.js | 📋 Planned | 0% |
@@ -66,7 +66,7 @@ Phase 1: FOUNDATION          Phase 2: STYLING
 Phase 3: LOGIC                Phase 4: STYLING FRAMEWORK
 ┌────────────────────┐      ┌────────────────────┐
 │  JavaScript           │ ──> │  Tailwind CSS         │
-│  📋 UPCOMING          │     │  📋 PLANNED           │
+│  🔄 IN PROGRESS       │     │   📋 PLANNED           │
 └────────────────────┘      └────────────────────┘
 
 Phase 5: FRONTEND FRAMEWORK   Phase 6: BACKEND
@@ -147,7 +147,7 @@ Real-world projects are built and tracked in their own repositories (linked as t
 | Markup | HTML5 |
 | Styling | CSS3, Tailwind CSS *(upcoming)* |
 | Layout | Flexbox, CSS Grid |
-| Scripting | JavaScript (ES6+) *(upcoming)* |
+| Scripting | JavaScript (ES6+) *(in progress)* |
 | Frontend Framework | React.js *(upcoming)* |
 | Backend | Node.js, Express.js *(upcoming)* |
 | Database | MongoDB *(upcoming)* |
@@ -186,7 +186,7 @@ Real-world projects are built and tracked in their own repositories (linked as t
 - [x] CSS Mastery
 - [x] Build Netflix Landing Page Clone
 - [x] Build Personal Portfolio Website
-- [ ] JavaScript
+- [ ] JavaScript (in progress)
 - [ ] Tailwind CSS
 - [ ] React.js
 - [ ] Node.js, Express.js, MongoDB
@@ -207,7 +207,7 @@ Thanks to **CodeWithHarry** for the Sigma Web Development Course, and to the bro
 ```
 Phase 1: HTML         ████████████████████ 100% ✅
 Phase 2: CSS          ████████████████████ 100% ✅
-Phase 3: JavaScript   ░░░░░░░░░░░░░░░░░░░░   0% 📋
+Phase 3: JavaScript   ░░░░░░░░░░░░░░░░░░░░   0% 🔄
 ```
 
 **Made with ❤️ while learning Web Development**
