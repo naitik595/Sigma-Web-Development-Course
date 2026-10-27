@@ -207,7 +207,7 @@ Thanks to **CodeWithHarry** for the Sigma Web Development Course, and to the bro
 ```
 Phase 1: HTML         ████████████████████ 100% ✅
 Phase 2: CSS          ████████████████████ 100% ✅
-Phase 3: JavaScript   ░░░░░░░░░░░░░░░░░░░░   0% 🔄
+Phase 3: JavaScript   █░░░░░░░░░░░░░░░░░░░   3% 🔄
 ```
 
 **Made with ❤️ while learning Web Development**
