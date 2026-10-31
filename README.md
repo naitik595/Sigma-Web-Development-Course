@@ -102,7 +102,6 @@ Phase 7: FULL-STACK FRAMEWORK
 - Object-fit / object-cover for image handling
 
 ### 📋 Coming Next
-- **JavaScript** — variables, functions, DOM manipulation, events, async/await, fetch API, OOP
 - **Tailwind CSS**, **React.js**, **Node.js / Express.js / MongoDB**, **Next.js**
 
 ---
