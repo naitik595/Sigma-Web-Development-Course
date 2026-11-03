@@ -43,7 +43,7 @@ This repository documents structured, hands-on web development learning:
 |---|:---:|:---:|
 | HTML | ✅ Complete | 100% |
 | CSS | ✅ Complete | 100% |
-| JavaScript | 🔄 In Progress | 10% |
+| JavaScript | 🔄 In Progress | 15% |
 | Tailwind CSS | 📋 Planned | 0% |
 | React.js | 📋 Planned | 0% |
 | Node.js / Express.js | 📋 Planned | 0% |
@@ -206,7 +206,7 @@ Thanks to **CodeWithHarry** for the Sigma Web Development Course, and to the bro
 ```
 Phase 1: HTML         ████████████████████ 100% ✅
 Phase 2: CSS          ████████████████████ 100% ✅
-Phase 3: JavaScript   ██░░░░░░░░░░░░░░░░░░   10% 🔄
+Phase 3: JavaScript   ███░░░░░░░░░░░░░░░░░  15% 🔄
 ```
 
 **Made with ❤️ while learning Web Development**
