@@ -215,6 +215,6 @@ Phase 3: JavaScript   ████░░░░░░░░░░░░░░░�
 
 **Follow my journey:** [@naitik595](https://github.com/naitik595)
 
-*Last Updated: October 2026*
+*Last Updated: November 2026*
 
 </div>
